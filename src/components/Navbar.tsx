@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
                         <ul className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
                             <li className="nav-item">
                                 <a
-                                    className="px-3 py-2 flex items-center font-bold leading-snug text-txtblack hover:opacity-75"
+                                    className="px-3 py-2 flex items-center font-bold leading-snug text-txtblack hover:opacity-60"
                                     href="#pablo"
                                 >
                                     <span className="ml-2">Home</span>
@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
                             </li>
                             <li className="nav-item">
                                 <a
-                                    className="px-3 py-2 flex items-center font-bold leading-snug text-txtblack hover:opacity-75"
+                                    className="px-3 py-2 flex items-center font-bold leading-snug text-txtblack hover:opacity-60"
                                     href="#pablo"
                                 >
                                     <span className="ml-2">Service</span>
@@ -51,7 +51,7 @@ const Navbar: React.FC = () => {
                             </li>
                             <li className="nav-item">
                                 <a
-                                    className="px-3 py-2 flex items-center font-bold leading-snug text-txtblack hover:opacity-75"
+                                    className="px-3 py-2 flex items-center font-bold leading-snug text-txtblack hover:opacity-60"
                                     href="#pablo"
                                 >
                                     <span className="ml-2">About</span>
@@ -59,7 +59,7 @@ const Navbar: React.FC = () => {
                             </li>
                             <li className="nav-item">
                                 <a
-                                    className="px-3 py-2 flex items-center font-bold leading-snug text-txtblack hover:opacity-75"
+                                    className="px-3 py-2 flex items-center font-bold leading-snug text-txtblack hover:opacity-60"
                                     href="#pablo"
                                 >
                                     <span className="ml-2">Contact</span>
