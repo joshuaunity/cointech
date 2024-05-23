@@ -1,6 +1,7 @@
 import './App.css'
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Features from './components/features';
 import herOrnament from './assets/ornaments.svg';
 
 function App() {
@@ -12,9 +13,13 @@ function App() {
       <Navbar />
       <Hero />
 
-      {/* <div className='conatainer px-4'>
-      </div> */}
+      <div className='conatainer px-4 xl:mx-auto'>
+        <Features />
+      </div>
 
+        <div className='mt-24'>
+          
+        </div>
     </>
   )
 }
