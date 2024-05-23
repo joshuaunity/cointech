@@ -24,10 +24,10 @@ const Hero: React.FC = () => {
                         </p>
 
                         <div className='space-x-6'>
-                            <button className='bg-primary text-white px-8 py-4 font-semibold rounded-md hover:bg-blue-700'>
+                            <button className='bg-primary text-white px-8 py-4 font-semibold rounded-md hover:bg-secondary hover:text-primary'>
                                 Download
                             </button>
-                            <button className='bg-white text-primary px-8 py-4 font-semibold rounded-md border-2 border-primary hover:border-primary hover:bg-primary hover:border-0 hover:text-white'>
+                            <button className='bg-white text-primary px-8 py-4 font-semibold rounded-md border-2 border-primary hover:border-primary hover:bg-secondary hover:border-0 hover:text-primary'>
                                 learn More
                             </button>
                         </div>
