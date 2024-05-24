@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Hero />
 
-      <div className='conatainer px-4 xl:mx-auto'>
+      <div className='container px-4 xl:mx-auto'>
         <Features />
       </div>
 
