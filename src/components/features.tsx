@@ -1,6 +1,7 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMoneyBillTransfer, faCreditCard, faBagShopping } from "@fortawesome/free-solid-svg-icons";
 
-import arrowwDownUp from '../assets/arrow-down-up.svg';
 import werfastMobile from '../assets/werfast-mobile.png';
 
 
@@ -9,7 +10,8 @@ const Features: React.FC = () => {
         <div className='mt-16 md:mt-38 lg:mt-40'>
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-6'>
                 <div className="flex flex-col items-center justify-center text-center p-5">
-                    <img src={arrowwDownUp} alt="" className="bg-secondary rounded-md p-3 mb-4" />
+                    <FontAwesomeIcon icon={faMoneyBillTransfer} className="bg-secondary text-3xl text-primary rounded-md p-5 mb-4" />
+
                     <h1 className="font-bold text-2xl mb-2">Send & Receive</h1>
                     <p className="text-txtgray">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -17,7 +19,7 @@ const Features: React.FC = () => {
                 </div>
 
                 <div className="flex flex-col items-center justify-center text-center p-5">
-                    <img src={arrowwDownUp} alt="" className="bg-secondary rounded-md p-3 mb-4" />
+                    <FontAwesomeIcon icon={faCreditCard} className="bg-secondary text-3xl text-primary rounded-md p-5 mb-4" />
                     <h1 className="font-bold text-2xl mb-2">Online Payment</h1>
                     <p className="text-txtgray">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -25,7 +27,7 @@ const Features: React.FC = () => {
                 </div>
 
                 <div className="flex flex-col items-center justify-center text-center p-5">
-                    <img src={arrowwDownUp} alt="" className="bg-secondary rounded-md p-3 mb-4" />
+                    <FontAwesomeIcon icon={faBagShopping} className="bg-secondary text-3xl text-primary rounded-md p-5 mb-4" />
                     <h1 className="font-bold text-2xl mb-2">Payment in Store</h1>
                     <p className="text-txtgray">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
