@@ -1,7 +1,8 @@
 import './App.css'
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Features from './components/features';
+import Features from './components/Features';
+import Why from './components/Why';
 import herOrnament from './assets/ornaments.svg';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
 
       <div className='container px-4 xl:mx-auto'>
         <Features />
+        <Why />
       </div>
 
         <div className='mt-24'>
