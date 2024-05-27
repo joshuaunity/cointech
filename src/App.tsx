@@ -1,9 +1,10 @@
 import './App.css'
+import herOrnament from './assets/ornaments.svg';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Features from './components/features';
+import Features from './components/Features';
 import Why from './components/Why';
-import herOrnament from './assets/ornaments.svg';
+import Testimonies from './components/Testimonies';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <div className='container px-4 xl:mx-auto'>
         <Features />
         <Why />
+        <Testimonies />
       </div>
 
         <div className='mt-24'>
