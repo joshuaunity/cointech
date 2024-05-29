@@ -6,6 +6,7 @@ import Features from './components/Features';
 import Why from './components/Why';
 import Testimonies from './components/Testimonies';
 import BottomHero from './components/Bottomhero';
+import Articles from './components/Articles';
 
 function App() {
   return (
@@ -22,9 +23,12 @@ function App() {
         <Testimonies />
       </div>
       <BottomHero />
-        <div className='mt-24'>
-          
-        </div>
+      <div className='container px-4 xl:mx-auto'>
+        <Articles />
+      </div>
+      <div className='mt-24'>
+
+      </div>
     </>
   )
 }
