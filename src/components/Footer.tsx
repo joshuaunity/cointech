@@ -8,7 +8,6 @@ const Footer: React.FC = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-6 space-x-5">
                     <div className="lg:col-start-1 lg:col-end-3">
                         <img src={logo3} alt="logo" className="w-2/4"/>
-                        {/* <h1 className="text-3xl"><span className="font-bold ">Coin</span> <span className="">Tech</span></h1> */}
                         <p className="text-sm pt-5">
                             Lorem ipsum dolor sit amet, consectetur
                             adipiscing elit, sed do eiusmod. Lorem ipsum
