@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
                 </div>
 
                 <p className="pt-20">
-                    Built by Edward Joshua and Designed By Mahima Gupt. Copyright 2024
+                    Built by Edward Joshua and Designed By Mahima Gupta. Copyright 2024
                 </p>
 
             </div>
