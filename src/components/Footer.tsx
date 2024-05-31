@@ -59,7 +59,8 @@ const Footer: React.FC = () => {
                 </div>
 
                 <p className="pt-20">
-                    Built by Edward Joshua and Designed By Mahima Gupta. Copyright 2024
+                    
+                    Built by <a href="https://www.linkedin.com/in/joshua-edward-oghenerobo/" target="_blank" className="font-bold"> Edward Joshua</a> and Designed By <a href="https://www.linkedin.com/in/mahima003/" target="_blank" className="font-bold">Mahima Gupta</a>. Copyright 2024
                 </p>
 
             </div>
