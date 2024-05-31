@@ -7,6 +7,7 @@ import Why from './components/Why';
 import Testimonies from './components/Testimonies';
 import BottomHero from './components/Bottomhero';
 import Articles from './components/Articles';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -26,9 +27,7 @@ function App() {
       <div className='container px-4 xl:mx-auto'>
         <Articles />
       </div>
-      <div className='mt-24'>
-
-      </div>
+      <Footer />
     </>
   )
 }
