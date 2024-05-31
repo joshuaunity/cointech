@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
-import logo from '../assets//logo.svg'
+import logo from '../assets/logo.svg'
+import logo2 from '../assets/logo2.svg'
 
 const Navbar: React.FC = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
@@ -15,7 +16,7 @@ const Navbar: React.FC = () => {
                             className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-black"
                             href="#pablo"
                         >
-                            <img src={logo} alt="logo" />
+                            <img className='w-16' src={logo2} alt="logo" />
                         </a>
                         <button
                             className="text-black cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
